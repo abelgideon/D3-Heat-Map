@@ -1,0 +1,22 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(33, 37, 41);
+}
+
+.bar:hover {
+  fill: green;
+}
+
+svg {
+  background-color: #fff;
+}
